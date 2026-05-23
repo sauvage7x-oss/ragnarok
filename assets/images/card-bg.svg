@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="cardPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="#8B0000" opacity="0.1"/>
+      <line x1="0" y1="0" x2="40" y2="40" stroke="#FFD700" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#cardGrad)"/>
+  <rect width="400" height="300" fill="url(#cardPattern)"/>
+  
+  <!-- Decorative corner elements -->
+  <g opacity="0.3">
+    <!-- Top left corner -->
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#8B0000" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#8B0000" stroke-width="2"/>
+    <!-- Top right corner -->
+    <line x1="350" y1="0" x2="400" y2="0" stroke="#8B0000" stroke-width="2"/>
+    <line x1="400" y1="0" x2="400" y2="50" stroke="#8B0000" stroke-width="2"/>
+    <!-- Bottom left corner -->
+    <line x1="0" y1="250" x2="0" y2="300" stroke="#8B0000" stroke-width="2"/>
+    <line x1="0" y1="300" x2="50" y2="300" stroke="#8B0000" stroke-width="2"/>
+    <!-- Bottom right corner -->
+    <line x1="400" y1="250" x2="400" y2="300" stroke="#8B0000" stroke-width="2"/>
+    <line x1="350" y1="300" x2="400" y2="300" stroke="#8B0000" stroke-width="2"/>
+  </g>
+</svg>
